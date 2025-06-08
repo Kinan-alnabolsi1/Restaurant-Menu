@@ -17,7 +17,7 @@ const item = [
     {
         id: 2,
         name: "Caesar Salad",
-        category: "Salad",
+        category: "Salads",
         price: 8.99,
         img: image2,
         desc: "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan.",
@@ -25,7 +25,7 @@ const item = [
     },
     {
         id: 3,
-        name: "Cheeseburger",
+        name: "Cheese Burger",
         category: "Burger",
         price: 10.99,
         img: image3,
@@ -44,7 +44,7 @@ const item = [
     {
         id: 5,
         name: "Chocolate Cake",
-        category: "Dessert",
+        category: "Desserts",
         price: 6.99,
         img: image5,
         desc: "Rich and moist chocolate cake topped with chocolate frosting.",

@@ -1,0 +1,21 @@
+{
+    "All": "All",
+    "price": "Price",
+    "Salads":"Salads",
+    "Drinks": "Drinks",
+    "Desserts": "Desserts",
+    "Pizza": "Pizza",
+    "Pasta":"Pasta",
+    "Burger": "Burger",
+    "Margherita Pizza": "Margherita Pizza",
+    "Caesar Salad":"Caesar Salad",
+    "Cheese Burger":"Cheese Burger",
+    "Chocolate Cake":"Chocolate Cake",
+    "Spaghetti Carbonara":"Spaghetti Carbonara",
+    "Juicy beef patty with cheddar cheese, lettuce, and tomato.": "Juicy beef patty with cheddar cheese, lettuce, and tomato.",
+    "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan.": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan.",
+    "Classic pizza with fresh mozzarella, tomatoes, and basil.": "Classic pizza with fresh mozzarella, tomatoes, and basil.",
+    "Rich and moist chocolate cake topped with chocolate frosting.":"Rich and moist chocolate cake topped with chocolate frosting.",
+    "Traditional pasta dish with eggs, cheese, pancetta, and pepper.":"Traditional pasta dish with eggs, cheese, pancetta, and pepper."
+  }
+  

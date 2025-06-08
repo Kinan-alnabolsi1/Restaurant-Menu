@@ -1,4 +1,3 @@
-import React from 'react'
 import Swipe from '../Components/Swipe'
 import FoodFilter from '../Components/FoodFilter'
 
