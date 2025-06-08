@@ -22,7 +22,7 @@ const Swipe = () => {
         modules={[Autoplay]}
       >
         <SwiperSlide>
-        <div className=" w-screen flex justify-center items-center"> 
+        <div className="w-screen flex justify-center items-center"> 
     <div style={{
         backgroundImage: `url(${image1})`,
         backgroundPosition: 'center',
@@ -33,7 +33,7 @@ const Swipe = () => {
         minHeight: '300px',
         borderRadius:"10px"
     }}></div>
-       </div>
+      </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className=" w-screen flex justify-center items-center"> 
@@ -47,7 +47,7 @@ const Swipe = () => {
         minHeight: '300px',
         borderRadius:"10px"
     }}></div>
-       </div>
+      </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className=" w-screen flex justify-center items-center"> 
@@ -61,7 +61,7 @@ const Swipe = () => {
         minHeight: '300px',
         borderRadius:"10px"
     }}></div>
-       </div>
+      </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="w-screen flex justify-center items-center">

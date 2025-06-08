@@ -53,15 +53,15 @@ const FoodFilter = () => {
                 <Slider {...settings} className="mb-4">
                     {categories.map((category, index) => (
                         <button onClick={() => setSelectedCategory(category.name)} key={index} className="px-4 py-2"> 
-                            <div className="relative border border-gray-300 rounded-lg shadow-sm shadow-gray-300 transition-transform duration-300 transform hover:scale-105">
+                            <div className={`relative border border-gray-300 rounded-lg shadow-md ${selectedCategory === category.name ? "shadow-[#facc15]" : "shadow-gray-300"}  transition-transform duration-300 transform hover:scale-105`}>
                                 <img
                                     src={category.img}
                                     alt={category.name}
-                                    className="w-full h-52 object-cover rounded-lg"
+                                    className={`w-full h-52 object-cover rounded-lg `}
                                 />
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded-lg">
                                     <button
-                                        className="text-white font-semibold"
+                                        className={`font-semibold ${selectedCategory === category.name ? "text-[#facc15]" : "text-white"}`}
                                     >
                                         {category.name}
                                     </button>
