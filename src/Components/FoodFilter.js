@@ -16,13 +16,21 @@ const FoodFilter = () => {
         i18n.changeLanguage(newLang);
     };
 
-    const categories = [
-        { name: 'All', img: image }, 
-        ...Array.from(new Set(Data.item.map(item => ({
+    const uniqueCategoriesMap = new Map();
+
+Data.item.forEach(item => {
+    if (!uniqueCategoriesMap.has(item.category)) {
+        uniqueCategoriesMap.set(item.category, {
             name: item.category,
             img: item.categoryImage
-        }))))
-    ];
+        });
+    }
+});
+
+const categories = [
+    { name: 'All', img: image },
+    ...Array.from(uniqueCategoriesMap.values())
+];
 
     const filteredItems = selectedCategory === 'All'
         ? Data.item
@@ -92,7 +100,8 @@ const FoodFilter = () => {
                             <img src={item.img} alt={item.name} className="w-full h-48 object-cover rounded-lg mb-2" />
                             <h2 className="text-lg font-semibold">{t(item.name)}</h2>
                             <p className="text-sm text-gray-500">{t(item.desc)}</p>
-                            <p className="font-bold mt-2 text-[#facc15]">{t('price')}: ${item.price.toFixed(2)}</p>
+                            {/* <p className="font-bold mt-2 text-[#facc15]">{t('price')}: ${item.price.toFixed(2)}</p> */}
+                            <hr className="font-bold mt-2 bg-[#facc15] h-[1.3px]"/>
                         </div>
                     ))}
                 </div>
