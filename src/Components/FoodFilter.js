@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Data from '../Data/Data'; 
 import { useTranslation } from 'react-i18next';
 import Slider from 'react-slick';
-import image from '../assets/pexels-photo-1640777.jpeg';
+import image from '../assets/Cheese_Barak.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -99,7 +99,7 @@ const categories = [
                         <div key={item.id} className="border border-gray-300 rounded-lg p-4 text-center shadow-lg shadow-gray-300">
                             <img src={item.img} alt={item.name} className="w-full h-48 object-cover rounded-lg mb-2" />
                             <h2 className="text-lg font-semibold">{t(item.name)}</h2>
-                            <p className="text-sm text-gray-500">{t(item.desc)}</p>
+                            {/* <p className="text-sm text-gray-500">{t(item.desc)}</p> */}
                             {/* <p className="font-bold mt-2 text-[#facc15]">{t('price')}: ${item.price.toFixed(2)}</p> */}
                             <hr className="font-bold mt-2 bg-[#facc15] h-[1.3px]"/>
                         </div>
