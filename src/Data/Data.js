@@ -160,6 +160,8 @@ import Chickenshish from "../assets/Chickenshish.jpg";
 import fishfillet from "../assets/fishfillet.jpg";
 import meals from "../assets/meals.jpg";
 import soup from "../assets/soup.jpg";
+import salads from "../assets/salads.jpg"
+import Shanklish from "../assets/Shanklish.jpg";
 
 const item = [
   {
@@ -196,8 +198,7 @@ const item = [
     price: 8.99,
     img: CaesarSalad,
     desc: "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan.",
-    categoryImage:
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+    categoryImage: salads,
   },
   {
     id: 5,
@@ -1426,6 +1427,77 @@ const item = [
     price: 6.99,
     img: CordonBleu_sa,
     desc: "Breaded chicken stuffed with cheese and ham.",
+  },
+  {
+    id: 157,
+    name: "Double Apple fakher",
+    category: "Hookah",
+    price: 6.99,
+    img: hookah,
+    desc: "Classic double apple flavored hookah.",
+    categoryImage: hookah,
+  },
+  {
+    id: 158,
+    name: "polo",
+    category: "Hookah",
+    price: 6.99,
+    img: hookah,
+    desc: "Classic double apple flavored hookah.",
+    categoryImage: hookah,
+  },
+  {
+    id: 159,
+    name: "gum",
+    category: "Hookah",
+    price: 6.99,
+    img: hookah,
+    desc: "Classic double apple flavored hookah.",
+    categoryImage: hookah,
+  },
+  {
+    id: 160,
+    name: "Grapes",
+    category: "Hookah",
+    price: 6.99,
+    img: hookah,
+    desc: "Classic double apple flavored hookah.",
+    categoryImage: hookah,
+  },
+  {
+    id: 161,
+    name: "Grapes and mint",
+    category: "Hookah",
+    price: 6.99,
+    img: hookah,
+    desc: "Classic double apple flavored hookah.",
+    categoryImage: hookah,
+  },
+  {
+    id: 162,
+    name: "love",
+    category: "Hookah",
+    price: 6.99,
+    img: hookah,
+    desc: "Classic double apple flavored hookah.",
+    categoryImage: hookah,
+  },
+  {
+    id: 163,
+    name: "blueberry",
+    category: "Hookah",
+    price: 6.99,
+    img: hookah,
+    desc: "Classic double apple flavored hookah.",
+    categoryImage: hookah,
+  },
+  {
+    id: 164,
+    name: "Shanklish",
+    category: "Cold Appetizers",
+    price: 6.99,
+    img: Shanklish,
+    desc: "Chickpea dip with tahini.",
   },
 ];
 
