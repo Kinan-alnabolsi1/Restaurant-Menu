@@ -64,49 +64,71 @@ const categories = [
     };
 
     return (
-        <div className=" text-white"> 
+      <div className=" text-white">
         <div className="flex justify-end gap-4 px-7 pt-4">
-        <button
-                onClick={toggleLanguage}
-                className="absolute top-4 right-4 bg-yellow-400 text-black w-10 h-10 rounded-full flex items-center justify-center font-bold shadow-md hover:bg-yellow-300 transition z-10"
-            >
-                {i18n.language === 'en' ? 'AR' : 'EN'}
-            </button>
-            </div>
-            <div className="p-7">
-                <Slider {...settings} className="mb-4">
-                    {categories.map((category, index) => (
-                        <button onClick={() => setSelectedCategory(category.name)} key={index} className="px-4 py-2"> 
-                            <div className={`relative border border-gray-300 rounded-lg shadow-md ${selectedCategory === category.name ? "shadow-[#facc15]" : "shadow-gray-300"}  transition-transform duration-300 transform hover:scale-105`}>
-                                <img
-                                    src={category.img}
-                                    alt={category.name}
-                                    className={`w-full h-52 object-cover rounded-lg `}
-                                />
-                                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded-lg">
-                                    <button
-                                        className={`font-semibold ${selectedCategory === category.name ? "text-[#facc15]" : "text-white"}`}
-                                    >
-                                        {t(category.name)}
-                                    </button>
-                                </div>
-                            </div>
-                        </button>
-                    ))}
-                </Slider>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    {filteredItems.map(item => (
-                        <div key={item.id} className="border border-gray-300 rounded-lg p-4 text-center shadow-lg shadow-gray-300">
-                            <img src={item.img} alt={item.name} className="w-full h-48 object-cover rounded-lg mb-2" />
-                            <h2 className="text-lg font-semibold">{t(item.name)}</h2>
-                            {/* <p className="text-sm text-gray-500">{t(item.desc)}</p> */}
-                            {/* <p className="font-bold mt-2 text-[#facc15]">{t('price')}: ${item.price.toFixed(2)}</p> */}
-                            <hr className="font-bold mt-2 bg-[#facc15] h-[1.3px]"/>
-                        </div>
-                    ))}
-                </div>
-            </div>
+          <button
+            onClick={toggleLanguage}
+            className="absolute top-4 right-4 bg-yellow-400 text-black w-10 h-10 rounded-full flex items-center justify-center font-bold shadow-md hover:bg-yellow-300 transition z-10"
+          >
+            {i18n.language === "en" ? "AR" : "EN"}
+          </button>
         </div>
+        <div className="p-7">
+          <Slider {...settings} className="mb-4">
+            {categories.map((category, index) => (
+              <button
+                onClick={() => setSelectedCategory(category.name)}
+                key={index}
+                className="px-4 py-2"
+              >
+                <div
+                  className={`relative border border-gray-300 rounded-lg shadow-md ${
+                    selectedCategory === category.name
+                      ? "shadow-[#facc15]"
+                      : "shadow-gray-300"
+                  }  transition-transform duration-300 transform hover:scale-105`}
+                >
+                  <img
+                    src={category.img}
+                    alt={category.name}
+                    className={`w-full h-52 object-cover rounded-lg `}
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded-lg">
+                    <button
+                      className={`font-semibold ${
+                        selectedCategory === category.name
+                          ? "text-[#facc15]"
+                          : "text-white"
+                      }`}
+                    >
+                      {t(category.name)}
+                    </button>
+                  </div>
+                </div>
+              </button>
+            ))}
+          </Slider>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {filteredItems.map((item) => (
+              <div
+                key={item.id}
+                className="border border-gray-300 rounded-lg p-4 text-center shadow-lg shadow-gray-300"
+              >
+                <img
+                  src={item.img}
+                  alt={item.name}
+                  className="w-full h-48 object-cover rounded-lg mb-2"
+                />
+                <h2 className="text-lg font-semibold">{t(item.name)}</h2>
+                {/* <p className="text-sm text-gray-500">{t(item.desc)}</p> */}
+                {/* <p className="font-bold mt-2 text-[#facc15]">{t('price')}: ${item.price.toFixed(2)}</p> */}
+                <hr className="font-bold mt-2 bg-[#facc15] h-[1.3px]" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     );
 };
 
