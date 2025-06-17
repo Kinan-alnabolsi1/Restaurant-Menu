@@ -162,7 +162,8 @@ import meals from "../assets/meals.jpg";
 import soup from "../assets/soup.jpg";
 import salads from "../assets/salads.jpg"
 import Shanklish from "../assets/Shanklish.jpg";
-
+import zenger_wm from "../assets/zenger-wm.png";
+import alraheb from "../assets/alraheb.jpg";
 const item = [
   {
     id: 1,
@@ -825,14 +826,14 @@ const item = [
     img: Garlic_flavored_labneh,
     desc: "Strained yogurt with spices.",
   },
-  // {
-  //   id: 82,
-  //   name: "Al Rahed",
-  //   category: "Cold Appetizers",
-  //   price: 6.99,
-  //   img: image3,
-  //   desc: "Pickled vegetable dish.",
-  // },
+  {
+    id: 82,
+    name: "Al Raheb",
+    category: "Cold Appetizers",
+    price: 6.99,
+    img: alraheb,
+    desc: "Pickled vegetable dish.",
+  },
   {
     id: 83,
     name: "Yalanje",
@@ -1224,7 +1225,7 @@ const item = [
     name: "Zinger",
     category: "western meals",
     price: 6.99,
-    img: Zinger,
+    img: zenger_wm,
     desc: "Spicy fried chicken sandwich.",
   },
   {
