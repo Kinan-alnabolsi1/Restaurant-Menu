@@ -13,6 +13,10 @@ const Page = () => {
       <div>
         <FoodFilter />
       </div>
+      <div className="text-center py-6 mt-10 text-yellow-400 text-sm">
+        <p className="font-semibold">Powered by Prime IT</p>
+        <p className="tracking-wide">0939501451</p>
+      </div>
     </div>
   );
 };
