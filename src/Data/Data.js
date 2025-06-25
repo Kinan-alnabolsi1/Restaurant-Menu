@@ -400,7 +400,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: lemonJuice,
-    desc: "Fresh lemon juice sweetened with water and sugar.",
+    // desc: "Fresh lemon juice sweetened with water and sugar.",
     categoryImage: fresh,
   },
   {
@@ -409,7 +409,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: Polo,
-    desc: "Fresh juice with natural flavors like strawberry or mint.",
+    // desc: "Fresh juice with natural flavors like strawberry or mint.",
   },
   {
     id: 34,
@@ -417,7 +417,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: OrangeJuice,
-    desc: "Pure natural orange juice with no additives.",
+    // desc: "Pure natural orange juice with no additives.",
   },
   {
     id: 35,
@@ -425,7 +425,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: PineappleJuice,
-    desc: "Natural pineapple juice made from fresh fruit.",
+    // desc: "Natural pineapple juice made from fresh fruit.",
   },
   {
     id: 36,
@@ -433,7 +433,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: MangoJuice,
-    desc: "Fresh mango juice made from natural mango pulp.",
+    // desc: "Fresh mango juice made from natural mango pulp.",
   },
   {
     id: 37,
@@ -441,7 +441,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: strawberryjuice,
-    desc: "Fresh strawberry juice with a little sugar and water.",
+    // desc: "Fresh strawberry juice with a little sugar and water.",
   },
   {
     id: 38,
@@ -449,7 +449,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: WatermelonJuice,
-    desc: "Fresh watermelon juice with a hint of mint and ice.",
+    // desc: "Fresh watermelon juice with a hint of mint and ice.",
   },
   {
     id: 39,
@@ -457,7 +457,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: CantaloupeJuice,
-    desc: "Fresh cantaloupe juice with drops of lemon.",
+    // desc: "Fresh cantaloupe juice with drops of lemon.",
   },
   {
     id: 40,
@@ -465,7 +465,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: kiwiJuice,
-    desc: "Natural kiwi juice with sugar and ice.",
+    // desc: "Natural kiwi juice with sugar and ice.",
   },
   // {
   //   id: 41,
@@ -489,7 +489,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: GriffonJuice,
-    desc: "A mix of fresh seasonal fruits, including grapes, apples, and citrus.",
+    // desc: "A mix of fresh seasonal fruits, including grapes, apples, and citrus.",
   },
   {
     id: 44,
@@ -497,7 +497,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: PomegranateJuice,
-    desc: "Fresh pomegranate seeds, filtered water, and a little of sugar.",
+    // desc: "Fresh pomegranate seeds, filtered water, and a little of sugar.",
   },
   {
     id: 45,
