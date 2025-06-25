@@ -171,7 +171,7 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: FoulBalaban,
-    desc: "Fava beans cooked with lemon and spices.",
+    desc: "Boiled fava beans with lemon, olive oil, garlic, cumin, salt, and black pepper.",
     categoryImage: Breakfast,
   },
   {
@@ -180,7 +180,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: Eggswithvegetables,
-    desc: "Scrambled eggs with vegetables.",
+    desc: "Scrambled eggs cooked with onions, green pepper, tomatoes, and spices.",
     categoryImage: HotAppet,
   },
   {
@@ -189,7 +189,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: hummus,
-    desc: "Chickpea dip with tahini.",
+    desc: "Mashed chickpeas with tahini, lemon juice, garlic, and olive oil.",
     categoryImage: colapptizer,
   },
   {
@@ -198,7 +198,7 @@ const item = [
     category: "Salads",
     price: 8.99,
     img: CaesarSalad,
-    desc: "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan.",
+    desc: "Romaine lettuce, Caesar dressing, croutons, Parmesan cheese, and crushed garlic.",
     categoryImage: salads,
   },
   {
@@ -207,7 +207,7 @@ const item = [
     category: "Soup",
     price: 6.99,
     img: OnionSoup,
-    desc: "Classic onion soup with croutons.",
+    desc: "Classic onion soup with chicken broth, caramelized onions, spices, and toasted bread.",
     categoryImage: soup,
   },
   {
@@ -216,7 +216,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: coffee,
-    desc: "Freshly brewed coffee.",
     categoryImage: Turkish,
   },
   {
@@ -225,7 +224,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: Espresso,
-    desc: "Strong black coffee served in small portions.",
   },
   {
     id: 8,
@@ -233,7 +231,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: Cappuccino,
-    desc: "Espresso with steamed milk and milk foam.",
   },
   {
     id: 9,
@@ -241,7 +238,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: nescafe,
-    desc: "Instant coffee blend.",
   },
   {
     id: 10,
@@ -249,7 +245,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: "https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg",
-    desc: "Instant coffee with added milk.",
   },
   {
     id: 11,
@@ -257,7 +252,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: HotChocolate,
-    desc: "Rich and creamy hot chocolate drink.",
   },
   {
     id: 12,
@@ -265,7 +259,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: tea,
-    desc: "Traditional tea variety.",
   },
   {
     id: 13,
@@ -273,7 +266,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: tea,
-    desc: "Another tea specialty.",
   },
   {
     id: 14,
@@ -281,7 +273,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: zuhurat,
-    desc: "Herbal flower tea blend.",
   },
   {
     id: 15,
@@ -289,7 +280,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: CuminandLemon,
-    desc: "Soothing herbal blend with cumin and lemon.",
   },
   {
     id: 16,
@@ -297,7 +287,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: "https://images.unsplash.com/photo-1512568400610-62da28bc8a13",
-    desc: "A strong double-shot coffee.",
   },
   {
     id: 17,
@@ -305,7 +294,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: nescafeBlack,
-    desc: "Pure black instant coffee.",
   },
   {
     id: 18,
@@ -313,7 +301,6 @@ const item = [
     category: "hot Drinks",
     price: 6.99,
     img: GingerwithMilk,
-    desc: "Warm ginger drink with milk.",
   },
   {
     id: 19,
@@ -321,7 +308,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: Waterb,
-    desc: "Bottled water (large).",
     categoryImage: cold,
   },
   {
@@ -330,7 +316,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: Waters,
-    desc: "Bottled water (small).",
   },
   {
     id: 21,
@@ -338,7 +323,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: sevenUp,
-    desc: "Lemon-lime soft drink.",
   },
   {
     id: 22,
@@ -346,7 +330,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: Pepsi,
-    desc: "Popular cola soft drink.",
   },
   {
     id: 23,
@@ -354,7 +337,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: mirindaapple,
-    desc: "Fruity apple soda.",
   },
   {
     id: 24,
@@ -362,7 +344,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: MirindaOrange,
-    desc: "Classic orange soda.",
   },
   {
     id: 25,
@@ -370,7 +351,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: IceTea,
-    desc: "Chilled flavored tea drink.",
   },
   {
     id: 26,
@@ -378,7 +358,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: DietPepsi,
-    desc: "Low-calorie cola.",
   },
   {
     id: 27,
@@ -386,7 +365,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: UpwithGrenadine,
-    desc: "7 Up soda with a splash of grenadine syrup.",
   },
   {
     id: 28,
@@ -394,7 +372,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: UpwithLemon,
-    desc: "7 Up soda with lemon juice.",
   },
   {
     id: 29,
@@ -402,7 +379,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: Redbull,
-    desc: "Energy drink.",
   },
   {
     id: 30,
@@ -410,7 +386,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: Baisun,
-    desc: "Cold beverage.",
   },
   {
     id: 31,
@@ -418,7 +393,6 @@ const item = [
     category: "cold Drinks",
     price: 6.99,
     img: jack,
-    desc: "Cold beverage.",
   },
   {
     id: 32,
@@ -426,7 +400,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: lemonJuice,
-    desc: "Freshly squeezed lemon juice.",
+    desc: "Fresh lemon juice sweetened with water and sugar.",
     categoryImage: fresh,
   },
   {
@@ -435,7 +409,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: Polo,
-    desc: "Fresh juice variety.",
+    desc: "Fresh juice with natural flavors like strawberry or mint.",
   },
   {
     id: 34,
@@ -443,7 +417,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: OrangeJuice,
-    desc: "Freshly squeezed orange juice.",
+    desc: "Pure natural orange juice with no additives.",
   },
   {
     id: 35,
@@ -451,7 +425,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: PineappleJuice,
-    desc: "Fresh pineapple juice.",
+    desc: "Natural pineapple juice made from fresh fruit.",
   },
   {
     id: 36,
@@ -459,7 +433,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: MangoJuice,
-    desc: "Fresh mango juice.",
+    desc: "Fresh mango juice made from natural mango pulp.",
   },
   {
     id: 37,
@@ -467,7 +441,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: strawberryjuice,
-    desc: "Fresh strawberry juice.",
+    desc: "Fresh strawberry juice with a little sugar and water.",
   },
   {
     id: 38,
@@ -475,7 +449,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: WatermelonJuice,
-    desc: "Fresh watermelon juice.",
+    desc: "Fresh watermelon juice with a hint of mint and ice.",
   },
   {
     id: 39,
@@ -483,7 +457,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: CantaloupeJuice,
-    desc: "Fresh cantaloupe juice.",
+    desc: "Fresh cantaloupe juice with drops of lemon.",
   },
   {
     id: 40,
@@ -491,7 +465,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: kiwiJuice,
-    desc: "Rich and moist chocolate cake topped with chocolate frosting.",
+    desc: "Natural kiwi juice with sugar and ice.",
   },
   // {
   //   id: 41,
@@ -515,7 +489,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: GriffonJuice,
-    desc: "Delicious Griffon juice.",
+    desc: "A mix of fresh seasonal fruits, including grapes, apples, and citrus.",
   },
   {
     id: 44,
@@ -523,7 +497,7 @@ const item = [
     category: "fresh juice",
     price: 6.99,
     img: PomegranateJuice,
-    desc: "Freshly squeezed pomegranate juice.",
+    desc: "Fresh pomegranate seeds, filtered water, and a little of sugar.",
   },
   {
     id: 45,
@@ -531,7 +505,7 @@ const item = [
     category: "Cocktails",
     price: 6.99,
     img: ChocolateMilkshake,
-    desc: "Rich chocolate milkshake with whipped cream.",
+    desc: "Milk, chocolate syrup, vanilla ice cream, and whipped cream.",
     categoryImage: cocktail,
   },
   {
@@ -540,7 +514,7 @@ const item = [
     category: "Cocktails",
     price: 6.99,
     img: StrawberryMilkshake,
-    desc: "Fresh strawberry milkshake with real fruit.",
+    desc: "Fresh strawberries, milk, vanilla ice cream, and sugar.",
   },
   {
     id: 47,
@@ -548,7 +522,7 @@ const item = [
     category: "Cocktails",
     price: 6.99,
     img: VanillaMilkshake,
-    desc: "Classic vanilla milkshake with creamy texture.",
+    desc: "Milk, vanilla extract, vanilla ice cream, and sugar.",
   },
   {
     id: 48,
@@ -556,7 +530,7 @@ const item = [
     category: "Cocktails",
     price: 6.99,
     img: ChocolateMilkshakeoreo,
-    desc: "Milkshake with crushed Oreo cookies.",
+    desc: "Milk, vanilla ice cream, crushed Oreo cookies, and chocolate syrup.",
   },
   {
     id: 49,
@@ -564,7 +538,7 @@ const item = [
     category: "Cocktails",
     price: 6.99,
     img: BananaMilkshake,
-    desc: "Creamy banana milkshake.",
+    desc: "Bananas, milk, vanilla ice cream, and honey or sugar.",
   },
   {
     id: 50,
@@ -572,7 +546,7 @@ const item = [
     category: "Cocktails",
     price: 6.99,
     img: BananaStrawberryMilkshake,
-    desc: "Milkshake with banana and strawberry flavors.",
+    desc: "Bananas, fresh strawberries, milk, and vanilla ice cream.",
   },
   // {
   //   id: 51,
@@ -596,7 +570,6 @@ const item = [
     category: "Cocktails",
     price: 6.99,
     img: BananaChocolateMilkshake,
-    desc: "Milkshake with banana and chocolate flavors.",
   },
   // {
   //   id: 54,
@@ -629,7 +602,7 @@ const item = [
     category: "Ice Cream",
     price: 6.99,
     img: IceCreamGazla,
-    desc: "Ice cream served with Gazla topping.",
+    desc: "Vanilla ice cream topped with Gazla syrup and nuts.",
     categoryImage: icecreamc,
   },
   {
@@ -638,7 +611,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: Tabbouleh,
-    desc: "Traditional tabbouleh salad.",
+    desc: "Parsley, tomatoes, bulgur wheat, mint, onion, lemon juice, and olive oil.",
   },
   {
     id: 59,
@@ -646,7 +619,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: Fattoush,
-    desc: "Fresh fattoush salad with herbs.",
+    desc: "Mixed greens, radishes, tomatoes, cucumbers, fried pita bread, sumac, lemon juice, and olive oil.",
   },
   {
     id: 60,
@@ -654,7 +627,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: ArmenianSalad,
-    desc: "Fresh Armenian style salad.",
+    desc: "Chopped tomatoes, cucumbers, onions, parsley, lemon juice, and olive oil.",
   },
   {
     id: 61,
@@ -662,7 +635,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: YunanSalad,
-    desc: "Greek (Yunan) salad with feta cheese.",
+    desc: "Tomatoes, cucumbers, onions, olives, feta cheese, oregano, olive oil, and lemon juice.",
   },
   {
     id: 62,
@@ -670,7 +643,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: RickfordSalad,
-    desc: "Healthy Rickforde salad mix.",
+    desc: "Mixed greens, cherry tomatoes, cucumbers, carrots, and vinaigrette dressing.",
   },
   {
     id: 63,
@@ -678,7 +651,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: ArugulaSalad,
-    desc: "Fresh arugula (jarjer) salad.",
+    desc: "Fresh arugula leaves, lemon juice, olive oil, salt, and pepper.",
   },
   {
     id: 64,
@@ -686,7 +659,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: Shanklish,
-    desc: "Chickpea dip with tahini.",
+    desc: "Fermented cheese mixed with herbs, olive oil, and spices.",
   },
   {
     id: 65,
@@ -694,7 +667,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: OliveSalad,
-    desc: "Salad with assorted olives.",
+    desc: "Assorted green and black olives, lemon juice, olive oil, and herbs.",
   },
   {
     id: 66,
@@ -702,7 +675,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: GrilledPepperSalad,
-    desc: "Salad with grilled peppers (arde shwki).",
+    desc: "Charred green peppers, garlic, lemon juice, olive oil, and salt.",
   },
   {
     id: 67,
@@ -710,7 +683,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: ArtichokeSalad,
-    desc: "",
+    desc: "Cooked artichoke hearts, olive oil, lemon juice, garlic, and herbs.",
   },
   {
     id: 68,
@@ -718,7 +691,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: BeetrootSalad,
-    desc: "",
+    desc: "Boiled beetroot, garlic, olive oil, lemon juice, and parsley.",
   },
   {
     id: 69,
@@ -726,7 +699,7 @@ const item = [
     category: "Soup",
     price: 6.99,
     img: Chicken,
-    desc: "Warm and hearty chicken soup.",
+    desc: "Chicken broth, shredded chicken, vegetables, herbs, and spices.",
     categoryImage:
       "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
   },
@@ -736,6 +709,7 @@ const item = [
     category: "Sandwich",
     price: 6.99,
     img: fajitasSandwich,
+    desc: "Grilled chicken or beef strips, bell peppers, onions, tortillas, and spices.",
     categoryImage: sandwich,
   },
   {
@@ -744,7 +718,7 @@ const item = [
     category: "Soup",
     price: 6.99,
     img: vegetable,
-    desc: "Vegetable soup with spices.",
+    desc: "Mixed vegetables, broth, herbs, and spices.",
   },
   {
     id: 72,
@@ -752,7 +726,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: Cornsalad,
-    desc: "Fresh and tasty salad.",
+    desc: "Sweet corn, tomatoes, onions, parsley, lemon juice, and olive oil.",
   },
   {
     id: 73,
@@ -760,7 +734,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: Coleslawsalad,
-    desc: "Classic coleslaw salad.",
+    desc: "Shredded cabbage, carrots, mayonnaise, vinegar, and sugar.",
   },
   {
     id: 74,
@@ -768,7 +742,7 @@ const item = [
     category: "Soup",
     price: 6.99,
     img: MushroomSoup1,
-    desc: "Mushroom soup with creamy base.",
+    desc: "Mushrooms, cream, broth, garlic, and herbs.",
   },
   {
     id: 75,
@@ -776,7 +750,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: EggswithMeat,
-    desc: "Scrambled eggs with grilled meat.",
+    desc: "Scrambled eggs cooked with grilled meat pieces and spices.",
   },
   {
     id: 76,
@@ -784,7 +758,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: Mutabal,
-    desc: "Smoky eggplant dip.",
+    desc: "Roasted eggplant, tahini, garlic, lemon juice, and olive oil.",
   },
   {
     id: 77,
@@ -792,7 +766,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: BabaGhanouj,
-    desc: "Creamy roasted eggplant dip.",
+    desc: "Roasted eggplant, tahini, garlic, lemon juice, olive oil, and yogurt.",
   },
   {
     id: 78,
@@ -800,7 +774,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: hummus_b,
-    desc: "Specialty hummus from Beirut.",
+    desc: "Chickpeas, tahini, garlic, lemon juice, olive oil, and spices.",
   },
   {
     id: 79,
@@ -808,7 +782,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: Kishk,
-    desc: "Fermented wheat and yogurt dish.",
+    desc: "Fermented wheat, yogurt, garlic, and spices.",
   },
   {
     id: 80,
@@ -816,7 +790,7 @@ const item = [
     category: "Soup",
     price: 6.99,
     img: CreamSoup,
-    desc: "Creamy soup with chicken or mushrooms.",
+    desc: "Cream, chicken or mushroom broth, garlic, and herbs.",
   },
   {
     id: 81,
@@ -824,7 +798,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: Garlic_flavored_labneh,
-    desc: "Strained yogurt with spices.",
+    desc: "Strained yogurt mixed with garlic, olive oil, and herbs.",
   },
   {
     id: 82,
@@ -832,7 +806,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: alraheb,
-    desc: "Pickled vegetable dish.",
+    desc: "Pickled mixed vegetables, garlic, vinegar, and spices.",
   },
   {
     id: 83,
@@ -840,7 +814,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: yalanje,
-    desc: "Stuffed grape leaves.",
+    desc: "Grape leaves stuffed with rice, herbs, and spices.",
   },
   {
     id: 84,
@@ -848,7 +822,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: Muhammara,
-    desc: "Spicy red pepper dip.",
+    desc: "Roasted red peppers, walnuts, breadcrumbs, garlic, olive oil, and spices.",
   },
   // {
   //   id: 85,
@@ -864,7 +838,7 @@ const item = [
     category: "Salads",
     price: 6.99,
     img: FrenchSalad,
-    desc: "Classic French style salad.",
+    desc: "Lettuce, tomatoes, cucumbers, olives, corn, and vinaigrette dressing.",
   },
   {
     id: 87,
@@ -872,7 +846,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: sh_mut,
-    desc: "Beetroot and eggplant dip.",
+    desc: "Beetroot, roasted eggplant, tahini, garlic, lemon juice, and olive oil.",
   },
   {
     id: 88,
@@ -880,7 +854,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: GrilledCheese,
-    desc: "Pan-grilled cheese slices.",
+    desc: "Slices of cheese grilled on a pan until golden.",
   },
   {
     id: 89,
@@ -888,7 +862,7 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: FoulBzait,
-    desc: "Fava beans with olive oil.",
+    desc: "Cooked fava beans with olive oil, garlic, and lemon juice.",
   },
   {
     id: 90,
@@ -896,7 +870,6 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: Halawa,
-    desc: "Sweet sesame paste dessert.",
   },
   {
     id: 91,
@@ -904,7 +877,6 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: Morabah,
-    desc: "Sweet fruit preserves.",
   },
   {
     id: 92,
@@ -912,7 +884,6 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: butter,
-    desc: "Clarified butter.",
   },
   {
     id: 93,
@@ -920,7 +891,7 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: FataBsamna,
-    desc: "Flatbread with ghee.",
+    desc: "Toasted (or fried) bread, boiled chickpeas, yogurt, tahini, garlic, lemon juice, ghee, cumin, and chopped parsley.",
   },
   {
     id: 94,
@@ -928,7 +899,7 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: FataBzait,
-    desc: "Flatbread with olive oil.",
+    desc: "Bread, boiled chickpeas, yogurt, tahini, garlic, lemon juice, olive oil, cumin and chopped parsley.",
   },
   {
     id: 95,
@@ -936,7 +907,6 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: Mortadella,
-    desc: "Italian-style luncheon meat.",
   },
   {
     id: 96,
@@ -944,7 +914,6 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: ShelalCheese,
-    desc: "Traditional soft cheese.",
   },
   {
     id: 97,
@@ -952,7 +921,6 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: BaidaCheese,
-    desc: "White cheese.",
   },
   {
     id: 98,
@@ -960,7 +928,7 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: Makdous,
-    desc: "Pickled stuffed eggplants.",
+    desc: "Pickled baby eggplants stuffed with walnuts, garlic, and chili.",
   },
   {
     id: 99,
@@ -968,7 +936,6 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: Mokhalal,
-    desc: "Soft cheese variant.",
   },
   {
     id: 100,
@@ -976,7 +943,7 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: Hummusbllbn,
-    desc: "Hummus with fava beans and olive oil.",
+    desc: "Mashed chickpeas mixed with fava beans, tahini, lemon, garlic, and olive oil.",
   },
   {
     id: 101,
@@ -984,7 +951,7 @@ const item = [
     category: "Breakfast",
     price: 6.99,
     img: HummusBzait,
-    desc: "Hummus with fava beans and olive oil.",
+    desc: "Chickpeas and fava beans blended with olive oil, garlic, and lemon juice.",
   },
   {
     id: 102,
@@ -992,7 +959,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: HummusBlahma,
-    desc: "A delicious chickpea dip with spices.",
+    desc: "Chickpea dip with garlic, lemon, tahini, and spices.",
   },
   {
     id: 103,
@@ -1000,7 +967,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: Mfarkawithmushroom,
-    desc: "Savory meat with crispy dough.",
+    desc: "Savory meat mixed with mushrooms and wrapped in crispy dough.",
   },
   {
     id: 104,
@@ -1008,7 +975,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: sausage,
-    desc: "",
+    desc: "Seasoned ground meat stuffed into casing and grilled or fried.",
   },
   {
     id: 105,
@@ -1016,7 +983,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: BeefSodah,
-    desc: "Refreshing carbonated beverage.",
+    desc: "Carbonated beverage flavored with sugar and natural flavors.",
   },
   {
     id: 106,
@@ -1024,7 +991,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: WedgesPotato,
-    desc: "Crispy potato wedges seasoned with spices.",
+    desc: "Potato wedges seasoned with spices and baked or fried until crispy.",
   },
   {
     id: 107,
@@ -1032,7 +999,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: FriedPotato,
-    desc: "Classic deep-fried potato sticks.",
+    desc: "Thinly sliced potatoes deep fried until golden and crispy.",
   },
   {
     id: 108,
@@ -1040,7 +1007,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: BrofensalPotato,
-    desc: "Special seasoned potato dish.",
+    desc: "Potatoes cooked with special seasoning and herbs.",
   },
   {
     id: 109,
@@ -1048,7 +1015,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: MakharetChicken,
-    desc: "Spicy marinated grilled chicken bites.",
+    desc: "Grilled chicken marinated with spicy herbs and spices.",
   },
   {
     id: 110,
@@ -1056,7 +1023,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: CheeseBarak,
-    desc: "Cheese-filled pastry with herbs.",
+    desc: "Pastry stuffed with cheese and herbs, fried to golden brown.",
   },
   {
     id: 111,
@@ -1064,7 +1031,7 @@ const item = [
     category: "Hot Appetizers",
     price: 6.99,
     img: KobaHamese,
-    desc: "Traditional meat and bulgur dish.",
+    desc: "Cooked meat mixed with bulgur wheat and spices.",
   },
   {
     id: 112,
@@ -1072,7 +1039,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: uncookedKoba,
-    desc: "Grilled flatbread with herbs.",
+    desc: "Flatbread grilled with herbs and olive oil.",
     categoryImage: grilled,
   },
   {
@@ -1081,7 +1048,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: uncookedHabra,
-    desc: "Grilled mint-flavored dish.",
+    desc: "Grilled mint-flavored flatbread with herbs.",
   },
   {
     id: 114,
@@ -1089,7 +1056,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: ShishTawook,
-    desc: "Tender grilled chicken skewers.",
+    desc: "Chicken skewers marinated in yogurt, garlic, lemon, and spices.",
   },
   {
     id: 115,
@@ -1097,7 +1064,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: Maria,
-    desc: "Special grilled meat platter.",
+    desc: "Assorted grilled meat platter with spices.",
   },
   {
     id: 116,
@@ -1105,7 +1072,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: Kababbeef,
-    desc: "Juicy grilled lamb kebabs.",
+    desc: "Ground beef kebabs seasoned with herbs and grilled.",
   },
   {
     id: 117,
@@ -1113,7 +1080,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: KababChicken,
-    desc: "Grilled chicken kebabs with spices.",
+    desc: "Chicken cubes marinated and grilled with spices.",
   },
   {
     id: 118,
@@ -1121,7 +1088,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: Shokaf,
-    desc: "Spicy grilled meat dish.",
+    desc: "Spicy grilled meat seasoned with herbs and chili.",
   },
   {
     id: 119,
@@ -1129,7 +1096,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: KababHalabe,
-    desc: "Aleppo style grilled kebab.",
+    desc: "Aleppo-style grilled kebab with spices and herbs.",
   },
   {
     id: 120,
@@ -1137,7 +1104,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: KababOrfali,
-    desc: "Traditional Orfali grilled kebab.",
+    desc: "Traditional Orfali kebab with ground meat and spices.",
   },
   {
     id: 121,
@@ -1145,7 +1112,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: Kababkha,
-    desc: "Kebab seasoned with sumac and herbs.",
+    desc: "Kebab seasoned with sumac, herbs, and spices.",
   },
   {
     id: 122,
@@ -1153,7 +1120,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: CastaletaL,
-    desc: "Grilled lamb ribs with spices.",
+    desc: "Grilled lamb ribs seasoned with spices.",
   },
   {
     id: 123,
@@ -1161,7 +1128,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: chickenWings,
-    desc: "Grilled chicken wings with special sauce.",
+    desc: "Grilled chicken wings served with a special sauce.",
   },
   {
     id: 124,
@@ -1169,7 +1136,7 @@ const item = [
     category: "Soup",
     price: 6.99,
     img: vermicelliSoup,
-    desc: "Fine vermicelli noodle soup.",
+    desc: "Soup made with fine vermicelli noodles, broth, and spices.",
   },
   {
     id: 125,
@@ -1177,7 +1144,7 @@ const item = [
     category: "Grills",
     price: 6.99,
     img: kababderry,
-    desc: "Creamy cheese and meat kebabs.",
+    desc: "Cheese and meat kebabs with creamy texture.",
   },
   {
     id: 126,
@@ -1185,7 +1152,7 @@ const item = [
     category: "western meals",
     price: 6.99,
     img: FahetaChicken,
-    desc: "Chicken fajita with bell peppers.",
+    desc: "Chicken fajita with bell peppers, onions, and spices.",
     categoryImage: meals,
   },
   {
@@ -1194,7 +1161,7 @@ const item = [
     category: "western meals",
     price: 6.99,
     img: Fahetabeef,
-    desc: "Beef fajita with spicy seasoning.",
+    desc: "Beef fajita marinated with spicy seasonings and grilled.",
   },
   {
     id: 128,
@@ -1202,7 +1169,7 @@ const item = [
     category: "western meals",
     price: 6.99,
     img: CordonBleu,
-    desc: "Breaded chicken stuffed with cheese.",
+    desc: "Breaded chicken breast stuffed with ham and cheese.",
   },
   {
     id: 129,
@@ -1210,7 +1177,7 @@ const item = [
     category: "western meals",
     price: 6.99,
     img: escalope,
-    desc: "Thinly sliced breaded meat cutlet.",
+    desc: "Thin breaded and fried meat cutlet.",
   },
   {
     id: 130,
@@ -1218,7 +1185,7 @@ const item = [
     category: "western meals",
     price: 6.99,
     img: Escalopemilanaise,
-    desc: "Italian style breaded cutlet.",
+    desc: "Italian-style breaded meat cutlet with herbs and cheese.",
   },
   {
     id: 131,
@@ -1298,7 +1265,7 @@ const item = [
     category: "western meals",
     price: 6.99,
     img: ChickenAlkaief,
-    desc: "Grilled chicken with eastern spices.",
+    desc: "Chicken marinated with eastern spices like cumin, coriander, paprika, garlic, and lemon juice.",
   },
   {
     id: 141,
@@ -1306,7 +1273,7 @@ const item = [
     category: "western meals",
     price: 6.99,
     img: Chickenshish,
-    desc: "Clay pot Chicken breast with melted cheese.",
+    desc: "Chicken breast cooked in a clay pot with melted cheese, garlic, and herbs.",
   },
   {
     id: 142,
@@ -1314,7 +1281,7 @@ const item = [
     category: "western meals",
     price: 6.99,
     img: fishfillet,
-    desc: "Fried fish fillet with lemon and herbs.",
+    desc: "Fish fillet fried with lemon juice, garlic, parsley, salt, and pepper.",
   },
   {
     id: 143,
@@ -1322,7 +1289,6 @@ const item = [
     category: "Hookah",
     price: 6.99,
     img: hookah,
-    desc: "Classic double apple flavored hookah.",
     categoryImage: hookah,
   },
   {
@@ -1331,7 +1297,6 @@ const item = [
     category: "Hookah",
     price: 6.99,
     img: hookah,
-    desc: "Smooth hookah pipe for easy draw.",
   },
   {
     id: 145,
@@ -1339,7 +1304,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: DafatCheese,
-    desc: "Cheese platter with vegetables.",
+    desc: "Cheese platter served with fresh vegetables like tomatoes, cucumbers, olives, and peppers.",
   },
   {
     id: 146,
@@ -1347,7 +1312,7 @@ const item = [
     category: "Cold Appetizers",
     price: 6.99,
     img: Dafatbeef,
-    desc: "Assorted cold meat platter.",
+    desc: "Assorted cold cuts of beef served with herbs, spices, and pickled vegetables.",
   },
   // {
   //   id: 147,
@@ -1363,7 +1328,7 @@ const item = [
     category: "Sandwich",
     price: 6.99,
     img: Supreme,
-    desc: "Specialty sandwich with rich meat filling.",
+    desc: "Bread, Supreme chicken, lettuce, tomatoes, onions, pickles, and sauce.",
   },
   {
     id: 149,
@@ -1371,7 +1336,7 @@ const item = [
     category: "Sandwich",
     price: 6.99,
     img: CrispySandwich,
-    desc: "Crispy chicken sandwich.",
+    desc: "Bread, fried crispy chicken strips, lettuce, tomatoes, and mayonnaise.",
   },
   {
     id: 150,
@@ -1379,7 +1344,7 @@ const item = [
     category: "Sandwich",
     price: 6.99,
     img: Mexican,
-    desc: "Grilled beef sandwich with sauce.",
+    desc: "Bread, grilled beef slices, spicy sauce, lettuce, and tomatoes.",
   },
   {
     id: 151,
@@ -1387,7 +1352,7 @@ const item = [
     category: "Sandwich",
     price: 6.99,
     img: BeefBurger,
-    desc: "Classic beef burger with toppings.",
+    desc: "Burger bun, beef patty, lettuce, tomato, onion, cheese, ketchup, and mustard.",
   },
   {
     id: 152,
@@ -1395,7 +1360,7 @@ const item = [
     category: "Sandwich",
     price: 6.99,
     img: ChickenBurger,
-    desc: "Fried chicken burger sandwich.",
+    desc: "Burger bun, fried chicken fillet, lettuce, tomato, and mayonnaise.",
   },
   {
     id: 153,
@@ -1403,7 +1368,7 @@ const item = [
     category: "Sandwich",
     price: 6.99,
     img: Escalope,
-    desc: "Breaded meat cutlet sandwich.",
+    desc: "Bread, breaded and fried meat cutlet, lettuce, and special sauce.",
   },
   {
     id: 154,
@@ -1411,7 +1376,7 @@ const item = [
     category: "Sandwich",
     price: 6.99,
     img: Shish,
-    desc: "Grilled meat shish kebab sandwich.",
+    desc: "Bread, grilled marinated meat chunks (shish kebab), onions, and vegetables.",
   },
   {
     id: 155,
@@ -1419,7 +1384,7 @@ const item = [
     category: "Sandwich",
     price: 6.99,
     img: image3,
-    desc: "Beef burger with cheese and toppings.",
+    desc: "Burger bun, beef patty, melted cheese, lettuce, tomato, onion, ketchup, and mayonnaise.",
   },
   {
     id: 156,
@@ -1427,70 +1392,56 @@ const item = [
     category: "Sandwich",
     price: 6.99,
     img: CordonBleu_sa,
-    desc: "Breaded chicken stuffed with cheese and ham.",
+    desc: "Breaded chicken breast filled with ham and melted cheese, fried until golden.",
   },
   {
     id: 157,
     name: "Double Apple fakher",
     category: "Hookah",
     price: 6.99,
-    img: hookah,
-    desc: "Classic double apple flavored hookah.",
-    categoryImage: hookah,
+    img: hookah
   },
   {
     id: 158,
     name: "polo",
     category: "Hookah",
     price: 6.99,
-    img: hookah,
-    desc: "Classic double apple flavored hookah.",
-    categoryImage: hookah,
+    img: hookah
   },
   {
     id: 159,
     name: "gum",
     category: "Hookah",
     price: 6.99,
-    img: hookah,
-    desc: "Classic double apple flavored hookah.",
-    categoryImage: hookah,
+    img: hookah
   },
   {
     id: 160,
     name: "Grapes",
     category: "Hookah",
     price: 6.99,
-    img: hookah,
-    desc: "Classic double apple flavored hookah.",
-    categoryImage: hookah,
+    img: hookah
   },
   {
     id: 161,
     name: "Grapes and mint",
     category: "Hookah",
     price: 6.99,
-    img: hookah,
-    desc: "Classic double apple flavored hookah.",
-    categoryImage: hookah,
+    img: hookah
   },
   {
     id: 162,
     name: "love",
     category: "Hookah",
     price: 6.99,
-    img: hookah,
-    desc: "Classic double apple flavored hookah.",
-    categoryImage: hookah,
+    img: hookah
   },
   {
     id: 163,
     name: "blueberry",
     category: "Hookah",
     price: 6.99,
-    img: hookah,
-    desc: "Classic double apple flavored hookah.",
-    categoryImage: hookah,
+    img: hookah
   },
 ];
 

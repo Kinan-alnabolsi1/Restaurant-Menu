@@ -121,7 +121,7 @@ const categories = [
                   className="w-full h-48 object-cover rounded-lg mb-2"
                 />
                 <h2 className="text-lg font-semibold">{t(item.name)}</h2>
-                {/* <p className="text-sm text-gray-500">{t(item.desc)}</p> */}
+                <p className="text-xs text-gray-500">{t(item.desc)}</p>
                 {/* <p className="font-bold mt-2 text-[#facc15]">{t('price')}: ${item.price.toFixed(2)}</p> */}
                 <hr className="font-bold mt-2 bg-[#facc15] h-[1.3px]" />
               </div>
