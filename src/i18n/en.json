@@ -212,7 +212,7 @@
   "Natural kiwi juice with sugar and ice.": "Natural kiwi juice.",
   "Vanilla ice cream topped with Gazla syrup and nuts.": "Vanilla ice cream topped with Gazla syrup and nuts.",
   "Parsley, tomatoes, bulgur wheat, mint, onion, lemon juice, and olive oil.": "Parsley, tomatoes, bulgur wheat, mint, onion, lemon juice, and olive oil.",
-  "Mixed greens, radishes, tomatoes, cucumbers, fried bread, sumac, lemon juice, and olive oil.": "Mixed greens, radishes, tomatoes, cucumbers, fried pita bread, sumac, lemon juice, and olive oil.",
+  "Mixed greens, radishes, tomatoes, cucumbers, fried pita bread, sumac, lemon juice, and olive oil.": "Mixed greens, radishes, tomatoes, cucumbers, fried pita bread, sumac, lemon juice, and olive oil.",
   "Chopped tomatoes, cucumbers, onions, parsley, lemon juice, and olive oil.": "Chopped tomatoes, cucumbers, onions, parsley, lemon juice, and olive oil.",
   "Tomatoes, cucumbers, onions, olives, feta cheese, oregano, olive oil, and lemon juice.": "Tomatoes, cucumbers, onions, olives, feta cheese, oregano, olive oil, and lemon juice.",
   "Mixed greens, cherry tomatoes, cucumbers, carrots, and vinaigrette dressing.": "Mixed greens, cherry tomatoes, cucumbers, carrots, and vinaigrette dressing.",
@@ -298,5 +298,11 @@
   "Bread, breaded and fried meat cutlet, lettuce, and special sauce.": "Bread, breaded and fried meat cutlet, lettuce, mayonnaise and ketchup.",
   "Bread, grilled marinated meat chunks (shish kebab), onions, and vegetables.": "Bread, grilled marinated meat chunks (shish kebab), onions, and vegetables.",
   "Burger bun, beef patty, melted cheese, lettuce, tomato, onion, ketchup, and mayonnaise.": "Burger bun, beef slice , cheddar cheese, lettuce, tomato, onion, ketchup, and mayonnaise.",
-  "Breaded chicken breast filled with ham and melted cheese, fried until golden.": "Scallop stuffed with kashkaval, mushrooms, and béchamel sauce."
+  "Breaded chicken breast filled with ham and melted cheese, fried until golden.": "Scallop stuffed with kashkaval, mushrooms, and béchamel sauce.",
+  "Milk, chocolate syrup, vanilla ice cream, and whipped cream.":"Milk, chocolate syrup, vanilla ice cream, and whipped cream.",
+  "Fresh strawberries, milk, vanilla ice cream, and sugar.":"Fresh strawberries, milk, vanilla ice cream, and sugar.",
+  "Milk, vanilla extract, vanilla ice cream, and sugar.":"Milk, vanilla extract, vanilla ice cream, and sugar.",
+  "Milk, vanilla ice cream, crushed Oreo cookies, and chocolate syrup.":"Milk, vanilla ice cream, crushed Oreo cookies, and chocolate syrup.",
+  "Bananas, milk, vanilla ice cream, and honey or sugar.":"Bananas, milk, vanilla ice cream, and honey or sugar.",
+  "Bananas, fresh strawberries, milk, and vanilla ice cream.":"Bananas, fresh strawberries, milk, and vanilla ice cream."
 }
