@@ -122,7 +122,7 @@ const categories = [
                 />
                 <h2 className="text-lg font-semibold">{t(item.name)}</h2>
                 <p className="text-xs text-gray-500">{t(item.desc)}</p>
-                {/* <p className="font-bold mt-2 text-[#facc15]">{t('price')}: ${item.price.toFixed(2)}</p> */}
+                <p className="font-bold mt-2 text-[#facc15]">{t("price")} : {item.price}{" "}{i18n.language === "ar" ? "ل.س" : "s.p"}</p>
                 <hr className="font-bold mt-2 bg-[#facc15] h-[1.3px]" />
               </div>
             ))}
